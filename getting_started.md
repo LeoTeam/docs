@@ -41,7 +41,29 @@ To install locally, run:
 $ gem install lotusrb
 ```
 
+Hello World
+==============
+Lets create a simple application using Lotus. This application will have a
+single route displaying the string 'Hello from Lotus!'. The application will be
+served using [Rack](http://wikipedia.org/wiki/Rack_%28web_server_interface%29).
+
+Create a file called `config.ru` and insert the code below.
+
+```ruby
+require 'lotus'
+
+class TinyApp < Lotus::Application
+  configure do
+    routes do
+      get '/', to: ->(env) {[200, {}, ['Hello from Lotus!']]} # Direct Rack response
+    end
+  end
+end
+
+run TinyApp.new
+```
+
+... explanation test ...
+
 Creating your first Lotus Application
 ==============
-blah blah
-
