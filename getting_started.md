@@ -68,7 +68,12 @@ inherit all the functionality of `Lotus::Router`, allowing us to configure
 a route for the base URL. The route passes a hash containing a 200 response, and
 response body 'Hello from Lotus!', to be handled by Rack.
 
-Run `rackup` to start Thin and you will see your hello world page on [0.0.0.0:9292](http://0.0.0.0:9292).
+Run `rackup` to start Thin and you will see the hello world page on [0.0.0.0:9292](http://0.0.0.0:9292).
 
-Creating your first Lotus Application
-==============
+Learn More
+==========
+
+This guide will now walk you through creating a simple but fully fledged
+application in Lotus. You can read individual pages to learn about parts
+of lotus in isolation or you can work through the whole tutorial and build the
+example app along with it.
