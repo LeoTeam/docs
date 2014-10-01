@@ -63,7 +63,12 @@ end
 run TinyApp.new
 ```
 
-... explanation test ...
+In this example we create `TinyApp`, extending `Lotus::Application`. This will
+inherit all the functionality of `Lotus::Router`, allowing us to configure
+a route for the base URL. The route passes a hash containing a 200 response, and
+response body 'Hello from Lotus!', to be handled by Rack.
+
+Run `rackup` to start Thin and you will see your hello world page on [0.0.0.0:9292](http://0.0.0.0:9292).
 
 Creating your first Lotus Application
 ==============
