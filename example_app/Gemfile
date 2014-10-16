@@ -1,0 +1,1 @@
+gem 'lotusrb', :git => 'https://github.com/lotus/lotus.git'
