@@ -10,8 +10,11 @@ module ExampleApp
         'views'
       ]
 
+      #controller_pattern "%{controller}Controller::%{action}"
+      #view_pattern       "%{controller}::%{action}"
+
       routes do
-        get '/',   to: ::Controllers::HomeController::Index
+        get '/',   to: 'home#index'#::Controllers::HomeController::Index
       end
 		end
 	end

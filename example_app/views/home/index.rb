@@ -1,7 +1,7 @@
 require 'lotus/view'
 
 module Views
-  module HomeController
+  module Home
     class Index
       include Lotus::View
     end

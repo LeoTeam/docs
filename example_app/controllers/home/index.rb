@@ -1,7 +1,7 @@
 #module ExampleApp::Application::HomeController
 #end
 module Controllers
-  class HomeController
+  class Home
     include Lotus::Controller
 
     class Index
