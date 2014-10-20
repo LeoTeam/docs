@@ -1,1 +1,2 @@
 gem 'lotusrb', :git => 'https://github.com/lotus/lotus.git'
+gem 'lotus-utils', :path => "~/Programming/lotus/utils"
