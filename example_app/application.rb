@@ -11,7 +11,7 @@ module ExampleApp
       ]
 
       routes do
-        get '/',   to: 'home#index'#::Controllers::HomeController::Index
+        get '/',   to: 'home#index'
       end
 		end
 	end
