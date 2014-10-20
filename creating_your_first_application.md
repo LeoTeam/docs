@@ -14,15 +14,17 @@ lotus. Next, we can create a namespaced class that will represent our
 application. Inside we can define our project route.
 
 **application.rb**
-    require 'lotus'
+```ruby
+require 'lotus'
 
-    module ExampleApp
-      class Application < Lotus::Application
-	    configure do
-	      root File.dirname(__FILE__)
-	    end
-	  end
-	end
+module ExampleApp
+  class Application < Lotus::Application
+    configure do
+      root File.dirname(__FILE__)
+    end
+  end
+end
+```
 
 If we require `application.rb` and add a call our `ExampleApp::Application`
 class then we should be able to run our application via the `config.ru`.
