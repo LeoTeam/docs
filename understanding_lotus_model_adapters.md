@@ -2,7 +2,7 @@
 
 ![Lotus::Model Adapter Diagram](./images/lotus-model-adapter-diagram.png)
 
-Lotus::Model comes with two adapters: [SQL](https://github.com/lotus/model/blob/master/lib/lotus/model/adapters/sql_adapter.rb) and [Memory](https://github.com/lotus/model/blob/master/lib/lotus/model/adapters/memory_adapter.rb).
+[Lotus::Model]((https://github.com/lotus/model/) comes with two adapters: [SQL](https://github.com/lotus/model/blob/master/lib/lotus/model/adapters/sql_adapter.rb) and [Memory](https://github.com/lotus/model/blob/master/lib/lotus/model/adapters/memory_adapter.rb).
 
 An Adapter collaborates with a [Mapper](https://github.com/lotus/model/blob/master/lib/lotus/model/mapper.rb).
 The purpose of this collaboration is to define how:
