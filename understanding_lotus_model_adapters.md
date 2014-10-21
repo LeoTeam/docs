@@ -10,7 +10,7 @@ The purpose of this collaboration is to define how:
 * an in-memory entity is coerced to persistence
 * a persisted object is reified into an in-memory entity
 
-The Mapper collaborates with a [Coercer](https://github.com/lotus/model/blob/master/lib/lotus/model/mapping/coercer.rb) that is responsible for moving an object to and from the persistence format.
+The Mapper collaborates with a [Coercer](https://github.com/lotus/model/blob/master/lib/lotus/model/mapping/coercer.rb) that is responsible for transforming an object to and from the persistence format.
 
 An adapter must implement the methods defined in [Lotus::Models::Adapters::Abstract](https://github.com/lotus/model/blob/master/lib/lotus/model/adapters/abstract.rb):
 
@@ -25,8 +25,6 @@ An adapter must implement the methods defined in [Lotus::Models::Adapters::Abstr
 * #clear(collection)
 * #command(query)
 * #query(collection, &blk)
-
-Lotus::Model provides an [Implementation](https://github.com/lotus/model/blob/master/lib/lotus/model/adapters/implementation.rb) of some of these methods.
 
 For the [SQL](https://github.com/lotus/model/blob/master/lib/lotus/model/adapters/sql_adapter.rb) and [Memory](https://github.com/lotus/model/blob/master/lib/lotus/model/adapters/memory_adapter.rb) adapter implementations, they each implements three collaborating classes:
 
