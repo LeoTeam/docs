@@ -43,6 +43,8 @@ These modules **are**:
 * Defining an interface definition - methods and signatures – for integration with other components of the various Lotus frameworks
 * Providing clear and cohesive behavior
 
+In other words, Lotus's mixins are ready to enrich *your* objects.
+
 These modules **are not**:
 
 * Junk drawer(s) of behavior piled upon an already overworked object
