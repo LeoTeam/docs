@@ -3,13 +3,15 @@
 ## Assumptions
 
 This guide assumes you have an appropriate version of Ruby installed
-as outlined in the general [Requirements](../01-introduction/03-requirements.md)document.
+as outlined in the general [Requirements](../01-introduction/03-requirements.md)
+document.
 
 Furthermore, this guide assumes that you are downloading the main Lotus
 repository, `lotus/lotus`. If you would like to contribute to one of the many
-micro-libraries that compose Lotus, be sure to appropriately substitute 'lotus'
-as appropriate. For example, if you wish to contribute to `lotus/model`, in
-the step where you clone your forked repository, be sure to run:
+micro-libraries that compose Lotus, be sure to appropriately substitute for
+`lotus` as appropriate. For example, if you wish to contribute to
+`lotus/model`, in the step where you clone your forked repository, be sure to
+run:
 
 ```bash
 $ git clone git@github.com:<your_user_name>/model.git
