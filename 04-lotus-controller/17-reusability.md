@@ -2,7 +2,7 @@
 
 ## Standalone Usage
 
-### Reusability
+## Reusability
 
 Lotus::Controller can be used as a singleton framework. The application code
 includes `Lotus::Controller` or `Lotus::Action` directly and the configuration
