@@ -1,16 +1,14 @@
 # Installation
 
-To install the framework and its executables, simply execute
+To install the framework and its executables:
 
 ```bash
 $ gem install lotusrb
 ```
 
-If you already have a project that has Lotus as a dependency listed in its
-`Gemfile`, simply executing
+Or, if you already have a project that has Lotus listed as a dependency in its
+`Gemfile`, you can use bundler:
 
 ```bash
 $ bundle
 ```
-
-within the project root should install the executables as well.
