@@ -9,7 +9,7 @@ Lotus is an Open Source Software, based on:
 * No monkey-patching of the core language and standard lib
 * Separation of concerns for Model/View/Controller (MVC) layers
 
-It suggests best practices, but it leaves all the freedom to you, as a developer, to build your own architecture, and use your own objects.
+It suggests best practices, but leaves all the freedom to you, as a developer, to build your own architecture, and use your own objects.
 
 Lotus is made of standalone frameworks (controllers, views, etc..).
 Each one is shipped as an **independent** gem.
@@ -50,8 +50,8 @@ These modules **are not**:
 * Junk drawer(s) of behavior piled upon an already overworked object
 * Comingled modules that silently depend upon each other
 
-When you are crafting your code, we want you to know what you get from Lotus.
-We want you to own your objects, and enrich them with Lotus behaviors.
+When you are crafting your code, you should own your objects and know
+which behaviours Lotus is providing.
 
-When you are maintaining your code, we want the explicit nature of module `include` and `extend` to provide clear guideposts for understanding your application.
+When you are maintaining your code, `include` and `extend` should provide clear guideposts for understanding your application.
 Both the code you wrote, and how Lotus helped you along the way.
