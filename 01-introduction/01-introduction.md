@@ -3,14 +3,12 @@
 ## What is Lotus?
 
 Lotus is a Ruby MVC web framework comprised of many micro-libraries. It has a
-simple, stable API, a minimal DSL, and prioritises using plain objects over
+simple, stable API, a minimal DSL, and prioritises the use of plain objects over
 magical, over-complicated classes with too much responsibility.
 
 The natural repercussion of using simple objects with clear responsibilities
-is that implementations will require more boilerplate code than other
-frameworks that do not make the same choice. Lotus provides ways to mitigate
+is more boilerplate code. Lotus provides ways to mitigate
 this extra legwork while keeping the underlying implementation the same.
-
 
 ## Why Choose Lotus?
 
@@ -20,8 +18,8 @@ Here are three compelling reasons:
 
 Lotus's code is relatively short, and it only concerns itself with the things
 that all web applications&mdash;regardless of implementation&mdash;need.
-Lotus also ships with several optional modules that can be included if you
-need, and other libraries that extend functionality can be included easily.
+Lotus ships with several optional modules that can be included if required.
+Other libraries that extend functionality can also be included easily.
 
 ### Lotus is Architecturally Sound
 
@@ -36,8 +34,7 @@ of them can be well-contained and tested in isolation.
 
 Making use of green threads is a great way to boost the performance of your
 application. It shouldn't be hard to write thread-safe code, and Lotus (when
-used as the entire framework, or when a few explicit instructions are
-followed when using only parts of it) is runtime threadsafe.
+using the entire framework, or using only parts of it) is runtime threadsafe.
 
 **This document is a stub. You can help by expanding it, reviewing its content,
 or by verifying its correctness. Please file any issues in the
