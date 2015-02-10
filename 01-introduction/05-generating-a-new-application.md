@@ -1,12 +1,5 @@
 # Generating a New Application
 
-
-## Assumptions
-
-This guide assumes you are already familiar with Ruby and have fulfilled
-Lotus's [requirements](03-requirements.md).
-
-
 ## Generating a Skeleton Application
 
 To generate an application, run
@@ -15,13 +8,11 @@ To generate an application, run
 $ lotus new my_app
 ```
 
-where `my_app` is what you'd like to name your application.
+Where `my_app` is the name of your application.
 
-It's possible to pass some options to the generator to customize the
-application it creates. You can see these options by
-running
+The generator accepts optional command-line arguments. Use the help flag
+to lists these options:
 
 ```bash
 $ lotus new --help
 ```
-
