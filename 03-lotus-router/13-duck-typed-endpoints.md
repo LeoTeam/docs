@@ -38,3 +38,7 @@ end
 router = Lotus::Router.new
 router.get '/flowers', to: 'flowers#index' # it will map to Flowers::Index.new
 ```
+
+**This document is a stub. You can help by expanding it, reviewing its content,
+or by verifying its correctness. Please file any issues in the
+[Github Issue Tracker](https://github.com/lotus/docs/issues).**

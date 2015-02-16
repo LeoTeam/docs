@@ -16,3 +16,7 @@ end
 4. That Proc is used as it is, because it respond to `#call`
 5. That string is resolved as `Dashboard::Index` ([Lotus::Controller](https://github.com/lotus/controller) integration)
 
+
+**This document is a stub. You can help by expanding it, reviewing its content,
+or by verifying its correctness. Please file any issues in the
+[Github Issue Tracker](https://github.com/lotus/docs/issues).**

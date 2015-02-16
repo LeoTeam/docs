@@ -12,3 +12,6 @@ app = Rack::MockRequest.new(router)
 app.get('/') # => #<Rack::MockResponse:0x007fc4540dc238 ...>
 ```
 
+**This document is a stub. You can help by expanding it, reviewing its content,
+or by verifying its correctness. Please file any issues in the
+[Github Issue Tracker](https://github.com/lotus/docs/issues).**
