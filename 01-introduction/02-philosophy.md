@@ -4,7 +4,7 @@ Lotus is an Open Source Software, based on:
 
 * Simplicity
 * Few Domain Specific Languages (DSLs)
-* Few Conventions
+* Few conventions
 * More objects
 * No monkey-patching of the core language and standard lib
 * Separation of concerns for Model/View/Controller (MVC) layers
