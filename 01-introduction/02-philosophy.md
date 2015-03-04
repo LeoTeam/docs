@@ -9,13 +9,20 @@ Lotus is an Open Source Software, based on:
 * No monkey-patching of the core language and standard lib
 * Separation of concerns for Model/View/Controller (MVC) layers
 
-It suggests best practices, but leaves all the freedom to you, as a developer, to build your own architecture, and use your own objects.
+The Lotus Framework:
+
+* Suggests best practices
+* Leaves developers with greater freedom
+
+All so you can build your own architecture and use your own objects.
+
+## Standalone Frameworks
 
 Lotus is made of standalone frameworks (controllers, views, etc..).
 Each one is shipped as an **independent** gem.
 And each gem can be used by itself.
 
-Lotus makes it easy to use individual modules, in your code, without having to include the whole framework.
+Lotus makes it easy to use individual modules without having to include the whole framework.
 
 ## Best Practices
 
