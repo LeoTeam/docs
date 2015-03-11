@@ -1,9 +1,9 @@
-# Overview
+# String matching with optional tokens:
 
-__Lotus::Router__ is designed to work as a standalone framework or within a
-context of a [Lotus](http://lotusrb.org) application.
-
-For the standalone usage, it supports neat features:
+```ruby
+router = Lotus::Router.new
+router.get '/lotus(.:format)' to: ->(env) { [200, {}, ["You've requested #{ env['router.params'][:format] }!"]] }
+```
 
 **This document is a stub. You can help by expanding it, reviewing its content,
 or by verifying its correctness. Please file any issues in the

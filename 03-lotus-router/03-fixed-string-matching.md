@@ -1,9 +1,9 @@
-# Overview
+# Fixed string matching:
 
-__Lotus::Router__ is designed to work as a standalone framework or within a
-context of a [Lotus](http://lotusrb.org) application.
-
-For the standalone usage, it supports neat features:
+```ruby
+router = Lotus::Router.new
+router.get '/lotus', to: ->(env) { [200, {}, ['Hello from Lotus!']] }
+```
 
 **This document is a stub. You can help by expanding it, reviewing its content,
 or by verifying its correctness. Please file any issues in the
